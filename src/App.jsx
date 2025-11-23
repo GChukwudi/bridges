@@ -3,14 +3,12 @@ import { useState, createContext, useContext } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import SMEDirectory from './pages/SMEDirectory';
+import Marketplace from './pages/Marketplace';
 import About from './pages/About';
 import TradeFair from './pages/TradeFair';
-import Gallery from './pages/Gallery';
 import Opportunities from './pages/Opportunities';
 import Resources from './pages/Resources';
 import Dashboard from './pages/Dashboard';
-import Contact from './pages/Contact';
 
 // Language Context
 export const LanguageContext = createContext();
@@ -28,14 +26,12 @@ function App() {
           <main>
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/sme-directory" element={<SMEDirectory />} />
+              <Route path="/marketplace" element={<Marketplace />} />
               <Route path="/about" element={<About />} />
               <Route path="/tradefair" element={<TradeFair />} />
-              <Route path="/gallery" element={<Gallery />} />
               <Route path="/opportunities" element={<Opportunities />} />
               <Route path="/resources" element={<Resources />} />
               <Route path="/dashboard" element={<Dashboard />} />
-              <Route path="/contact" element={<Contact />} />
             </Routes>
           </main>
           <Footer />

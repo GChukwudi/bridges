@@ -17,9 +17,8 @@ function About() {
                 {t.mission}
               </h2>
               <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--text-dark)' }}>
-                To expand SME visibility and make market access inclusive for businesses across Rwanda. 
-                We believe every small business deserves the tools and opportunities to reach customers 
-                beyond their immediate location, breaking down barriers to growth and success.
+                To empower Rwandan SMEs to drive economic development by leveraging social media, 
+                e-commerce platforms, and trade fairs for strong physical and digital market presence.
               </p>
             </div>
 
@@ -28,9 +27,9 @@ function About() {
                 {t.vision}
               </h2>
               <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--text-dark)' }}>
-                A thriving ecosystem where every Rwandan SME has the digital presence, skills, and 
-                connections needed to compete in regional and international markets. We envision a 
-                future where geography is no longer a limitation to business success.
+                To become Africa's leading digital-physical growth partner for SMEs, enabling 
+                entrepreneurs to thrive through accessible technology, enhanced visibility, and 
+                inclusive opportunities.
               </p>
             </div>
 
@@ -58,33 +57,95 @@ function About() {
         </div>
       </section>
 
-      {/* Our Story */}
+      {/* Contact Section */}
       <section className="section" style={{ background: 'var(--bg-light)' }}>
+        <div className="container">
+          <h2 className="section-title">Get in Touch</h2>
+          
+          <div className="contact-info">
+            <div className="contact-card">
+              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>✉️</div>
+              <h3>Email</h3>
+              <p style={{ color: 'var(--text-light)', marginBottom: '1rem' }}>
+                Send us a message
+              </p>
+              <a href="mailto:bridgesbysi@gmail.com">
+                bridgesbysi@gmail.com
+              </a>
+            </div>
+
+            <div className="contact-card">
+              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>📷</div>
+              <h3>Instagram</h3>
+              <p style={{ color: 'var(--text-light)', marginBottom: '1rem' }}>
+                Follow us for updates
+              </p>
+              <a href="https://www.instagram.com/bri.dges_" target="_blank" rel="noopener noreferrer">
+                @bri.dges_
+              </a>
+            </div>
+
+            <div className="contact-card">
+              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>💼</div>
+              <h3>LinkedIn</h3>
+              <p style={{ color: 'var(--text-light)', marginBottom: '1rem' }}>
+                Professional networking
+              </p>
+              <a href="https://www.linkedin.com/company/briidges" target="_blank" rel="noopener noreferrer">
+                Bridges
+              </a>
+            </div>
+
+            <div className="contact-card">
+              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🎵</div>
+              <h3>TikTok</h3>
+              <p style={{ color: 'var(--text-light)', marginBottom: '1rem' }}>
+                Watch our content
+              </p>
+              <a href="https://www.tiktok.com/@bri_dges" target="_blank" rel="noopener noreferrer">
+                @bri_dges
+              </a>
+            </div>
+          </div>
+
+          <div style={{ marginTop: '4rem', textAlign: 'center' }}>
+            <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Visit Us</h2>
+            <p style={{ fontSize: '1.1rem', color: 'var(--text-dark)' }}>
+              Kigali, Rwanda
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Story */}
+      <section className="section">
         <div className="container">
           <h2 className="section-title">Our Story</h2>
           <div className="about-content">
             <p style={{ fontSize: '1.1rem', lineHeight: '1.8', marginBottom: '1rem' }}>
-              Bridges was founded with a simple observation: talented artisans, food vendors, fashion 
-              designers, and service providers across Rwanda were creating amazing products but struggling 
-              to reach customers beyond their immediate neighborhoods.
+              Bridges was founded with a mission to transform how Rwandan SMEs access markets and 
+              grow their businesses. We recognized that talented entrepreneurs across the country 
+              were creating amazing products and services but struggling to reach customers beyond 
+              their immediate communities.
             </p>
             <p style={{ fontSize: '1.1rem', lineHeight: '1.8', marginBottom: '1rem' }}>
               Traditional barriers like lack of digital presence, limited marketing knowledge, and 
               difficulty accessing funding were preventing these businesses from scaling. Meanwhile, 
-              customers across the country were eager to discover and support local SMEs but had no 
-              easy way to find them.
+              customers across Rwanda and beyond were eager to discover and support local SMEs but 
+              had no easy way to find them.
             </p>
             <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
-              We created Bridges to solve this problem—providing SMEs with the visibility, training, 
-              and opportunities they need while connecting conscious consumers with quality local 
-              businesses. Today, we're proud to support hundreds of SMEs in their growth journey.
+              Today, Bridges provides SMEs with the visibility, training, and opportunities they need 
+              through our e-commerce marketplace, trade fair events, funding connections, and social 
+              media training programs. We're building a thriving ecosystem where every Rwandan 
+              entrepreneur can succeed.
             </p>
           </div>
         </div>
       </section>
 
       {/* Impact Numbers */}
-      <section className="section">
+      <section className="section" style={{ background: 'var(--bg-light)' }}>
         <div className="container">
           <h2 className="section-title">Our Impact</h2>
           <div className="opportunities-grid">
@@ -93,28 +154,28 @@ function About() {
                 500+
               </div>
               <h3>SMEs Registered</h3>
-              <p>Businesses using our platform to grow their reach</p>
+              <p>Businesses using our platform to grow</p>
             </div>
             <div className="opportunity-card" style={{ textAlign: 'center' }}>
               <div style={{ fontSize: '3rem', fontWeight: 'bold', color: 'var(--primary-color)', marginBottom: '0.5rem' }}>
                 $2M+
               </div>
               <h3>Funding Connected</h3>
-              <p>In grants and investments facilitated for SMEs</p>
+              <p>In grants and investments facilitated</p>
             </div>
             <div className="opportunity-card" style={{ textAlign: 'center' }}>
               <div style={{ fontSize: '3rem', fontWeight: 'bold', color: 'var(--primary-color)', marginBottom: '0.5rem' }}>
                 1,200+
               </div>
               <h3>Training Participants</h3>
-              <p>SMEs trained in digital marketing and business skills</p>
+              <p>SMEs trained in digital skills</p>
             </div>
             <div className="opportunity-card" style={{ textAlign: 'center' }}>
               <div style={{ fontSize: '3rem', fontWeight: 'bold', color: 'var(--primary-color)', marginBottom: '0.5rem' }}>
                 85%
               </div>
               <h3>Growth Rate</h3>
-              <p>Average sales increase for SMEs after 6 months</p>
+              <p>Average sales increase after 6 months</p>
             </div>
           </div>
         </div>

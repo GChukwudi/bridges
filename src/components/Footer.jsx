@@ -13,35 +13,37 @@ function Footer() {
         <div className="footer-content">
           <div className="footer-section">
             <h3>Bridges</h3>
-            <p>Empowering SMEs to reach markets beyond borders</p>
+            <p>Empowering Rwandan SMEs through digital and physical market presence</p>
           </div>
 
           <div className="footer-section">
             <h3>{t.quickLinks}</h3>
             <ul>
               <li><Link to="/">{t.home}</Link></li>
-              <li><Link to="/sme-directory">{t.joinSME}</Link></li>
-              <li><Link to="/opportunities">{t.opportunities}</Link></li>
               <li><Link to="/about">{t.about}</Link></li>
-              <li><Link to="/contact">{t.contact}</Link></li>
+              <li><Link to="/marketplace">{t.joinSME}</Link></li>
+              <li><Link to="/opportunities">{t.opportunities}</Link></li>
+              <li><Link to="/tradefair">{t.tradeFair}</Link></li>
             </ul>
           </div>
 
           <div className="footer-section">
             <h3>{t.followUs}</h3>
             <ul>
-              <li><a href="#whatsapp">WhatsApp</a></li>
-              <li><a href="#instagram">Instagram</a></li>
-              <li><a href="#linkedin">LinkedIn</a></li>
-              <li><a href="mailto:info@bridges.rw">Email</a></li>
+              <li><a href="https://www.instagram.com/bri.dges_" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+              <li><a href="https://www.linkedin.com/company/briidges" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+              <li><a href="https://www.tiktok.com/@bri_dges" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+              <li><a href="mailto:bridgesbysi@gmail.com">Email</a></li>
             </ul>
           </div>
 
           <div className="footer-section">
             <h3>{t.contact}</h3>
             <p>Kigali, Rwanda</p>
-            <p>info@bridges.rw</p>
-            <p>+250 XXX XXX XXX</p>
+            <p><a href="mailto:bridgesbysi@gmail.com" style={{ color: 'inherit', textDecoration: 'none' }}>bridgesbysi@gmail.com</a></p>
+            <p style={{ marginTop: '1rem' }}>
+              <a href="https://www.instagram.com/bri.dges_" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit' }}>@bri.dges_</a>
+            </p>
           </div>
         </div>
 

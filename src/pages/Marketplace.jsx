@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useLanguage } from '../App';
 import { translations } from '../translations';
 
-function SMEDirectory() {
+function Marketplace() {
   const { language } = useLanguage();
   const t = translations[language];
   const [activeFilter, setActiveFilter] = useState('all');
@@ -12,7 +12,7 @@ function SMEDirectory() {
     { id: 'fashion', label: t.fashion },
     { id: 'decor', label: t.decor },
     { id: 'rental', label: t.rental },
-    { id: 'food', label: t.food },
+    { id: 'food', label: 'Food & Catering' },
     { id: 'beauty', label: t.beauty },
     { id: 'new', label: t.newBusinesses },
     { id: 'made-in-rwanda', label: t.madeInRwanda }
@@ -173,7 +173,10 @@ function SMEDirectory() {
     <div className="sme-directory">
       <section className="section">
         <div className="container">
-          <h1 className="section-title">{t.smeDirectoryTitle}</h1>
+          <h1 className="section-title">Bridges Marketplace</h1>
+          <p className="text-center" style={{ fontSize: '1.2rem', color: 'var(--text-light)', marginBottom: '3rem' }}>
+            Online visibility and market reach for Rwandan SMEs
+          </p>
           
           {/* Filters */}
           <div className="filters">
@@ -264,4 +267,4 @@ function SMEDirectory() {
   );
 }
 
-export default SMEDirectory;
+export default Marketplace;

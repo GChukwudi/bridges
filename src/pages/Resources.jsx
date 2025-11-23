@@ -147,8 +147,11 @@ function Resources() {
       <section className="section">
         <div className="container">
           <h1 className="section-title">{t.resourcesTitle}</h1>
+          <p className="text-center" style={{ fontSize: '1.1rem', color: 'var(--primary-color)', fontWeight: '600', marginBottom: '1rem' }}>
+            AI Business Assistant + Content Calendar
+          </p>
           <p className="text-center" style={{ fontSize: '1.2rem', color: 'var(--text-light)', marginBottom: '3rem' }}>
-            Equip your SME with simple, actionable social media skills
+            Help SMEs improve online branding & engagement
           </p>
 
           {/* Content Type Filters */}
