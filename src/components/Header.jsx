@@ -11,8 +11,12 @@ function Header() {
   return (
     <header className="header">
       <nav className="nav-container">
-        <Link to="/" className="logo">
-          Bridges
+        <Link to="/" className="logo" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          <img 
+            src="images/logo.png" 
+            alt="Bridges Logo" 
+            style={{ height: '50px', width: 'auto' }}
+          />
         </Link>
 
         <button 
@@ -31,24 +35,23 @@ function Header() {
           <li><Link to="/resources" onClick={() => setMobileMenuOpen(false)}>{t.resources}</Link></li>
           
           <li className="language-toggle">
-            <button 
-              className={language === 'en' ? 'active' : ''}
-              onClick={() => setLanguage('en')}
+            <select 
+              value={language} 
+              onChange={(e) => setLanguage(e.target.value)}
+              style={{
+                padding: '0.5rem 1rem',
+                border: '1px solid var(--border-color)',
+                borderRadius: '4px',
+                background: 'var(--white)',
+                cursor: 'pointer',
+                fontSize: '0.9rem',
+                color: 'var(--text-dark)'
+              }}
             >
-              EN
-            </button>
-            <button 
-              className={language === 'rw' ? 'active' : ''}
-              onClick={() => setLanguage('rw')}
-            >
-              RW
-            </button>
-            <button 
-              className={language === 'fr' ? 'active' : ''}
-              onClick={() => setLanguage('fr')}
-            >
-              FR
-            </button>
+              <option value="en">English</option>
+              <option value="rw">Kinyarwanda</option>
+              <option value="fr">Français</option>
+            </select>
           </li>
         </ul>
       </nav>
