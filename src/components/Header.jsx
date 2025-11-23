@@ -13,7 +13,7 @@ function Header() {
       <nav className="nav-container">
         <Link to="/" className="logo" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
           <img 
-            src="images/logo.png" 
+            src="public/images/logo.png" 
             alt="Bridges Logo" 
             style={{ height: '50px', width: 'auto' }}
           />
