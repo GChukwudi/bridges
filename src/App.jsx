@@ -9,6 +9,7 @@ import TradeFair from './pages/TradeFair';
 import Opportunities from './pages/Opportunities';
 import Resources from './pages/Resources';
 import Dashboard from './pages/Dashboard';
+import VendorSignup from './pages/VendorSignup';
 
 // Language Context
 export const LanguageContext = createContext();
@@ -32,6 +33,7 @@ function App() {
               <Route path="/opportunities" element={<Opportunities />} />
               <Route path="/resources" element={<Resources />} />
               <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/vendor-signup" element={<VendorSignup />} />
             </Routes>
           </main>
           <Footer />

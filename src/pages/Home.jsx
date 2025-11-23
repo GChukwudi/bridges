@@ -89,7 +89,7 @@ function Home() {
               Drive economic development through digital presence and trade fairs
             </p>
             <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center' }}>
-              <Link to="/marketplace" className="cta-button">
+              <Link to="/vendor-signup" className="cta-button">
                 Join as an SME
               </Link>
               <Link to="/opportunities" className="cta-button" style={{ background: 'rgba(252, 249, 218, 0.9)', color: 'var(--primary-color)' }}>
@@ -196,11 +196,11 @@ function Home() {
             Join hundreds of SMEs expanding their reach with Bridges
           </p>
           <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center' }}>
-            <Link to="/marketplace" className="cta-button">
+            <Link to="/vendor-signup" className="cta-button">
               Join as an SME
             </Link>
-            <Link to="/opportunities" className="cta-button" style={{ background: 'var(--secondary-color)', color: 'var(--primary-color)' }}>
-              Explore Opportunities
+            <Link to="/marketplace" className="cta-button" style={{ background: 'var(--secondary-color)', color: 'var(--primary-color)' }}>
+              View Vendors
             </Link>
           </div>
         </div>

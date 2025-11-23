@@ -57,66 +57,6 @@ function About() {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section className="section" style={{ background: 'var(--bg-light)' }}>
-        <div className="container">
-          <h2 className="section-title">Get in Touch</h2>
-          
-          <div className="contact-info">
-            <div className="contact-card">
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>✉️</div>
-              <h3>Email</h3>
-              <p style={{ color: 'var(--text-light)', marginBottom: '1rem' }}>
-                Send us a message
-              </p>
-              <a href="mailto:bridgesbysi@gmail.com">
-                bridgesbysi@gmail.com
-              </a>
-            </div>
-
-            <div className="contact-card">
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>📷</div>
-              <h3>Instagram</h3>
-              <p style={{ color: 'var(--text-light)', marginBottom: '1rem' }}>
-                Follow us for updates
-              </p>
-              <a href="https://www.instagram.com/bri.dges_" target="_blank" rel="noopener noreferrer">
-                @bri.dges_
-              </a>
-            </div>
-
-            <div className="contact-card">
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>💼</div>
-              <h3>LinkedIn</h3>
-              <p style={{ color: 'var(--text-light)', marginBottom: '1rem' }}>
-                Professional networking
-              </p>
-              <a href="https://www.linkedin.com/company/briidges" target="_blank" rel="noopener noreferrer">
-                Bridges
-              </a>
-            </div>
-
-            <div className="contact-card">
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🎵</div>
-              <h3>TikTok</h3>
-              <p style={{ color: 'var(--text-light)', marginBottom: '1rem' }}>
-                Watch our content
-              </p>
-              <a href="https://www.tiktok.com/@bri_dges" target="_blank" rel="noopener noreferrer">
-                @bri_dges
-              </a>
-            </div>
-          </div>
-
-          <div style={{ marginTop: '4rem', textAlign: 'center' }}>
-            <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Visit Us</h2>
-            <p style={{ fontSize: '1.1rem', color: 'var(--text-dark)' }}>
-              Kigali, Rwanda
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Our Story */}
       <section className="section">
         <div className="container">
