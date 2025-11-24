@@ -103,7 +103,7 @@ function Home() {
         </div>
       </section>
 
-      {/* Mission Statement */}
+      {/* Mission Statement
       <section className="section">
         <div className="container">
           <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
@@ -116,43 +116,11 @@ function Home() {
             </p>
           </div>
         </div>
-      </section>
-
-      {/* Featured SMEs */}
-      <section className="section" style={{ background: 'var(--bg-light)' }}>
-        <div className="container">
-          <h2 className="section-title">Featured SMEs</h2>
-          <div className="sme-grid">
-            {featuredSMEs.map(sme => (
-              <div key={sme.id} className="sme-card">
-                <img 
-                  src={sme.image} 
-                  alt={sme.name} 
-                  className="sme-image"
-                />
-                <div className="sme-content">
-                  <h3 className="sme-name">{sme.name}</h3>
-                  <span className="sme-category">{sme.category}</span>
-                  <p className="sme-description">{sme.description}</p>
-                  <Link to="/marketplace" className="visit-btn">
-                    View Profile
-                  </Link>
-                </div>
-              </div>
-            ))}
-          </div>
-          <div style={{ textAlign: 'center', marginTop: '2rem' }}>
-            <Link to="/marketplace" className="cta-button">
-              View All Vendors
-            </Link>
-          </div>
-        </div>
-      </section>
+      </section> */}
 
       {/* Testimonials Section */}
       <section className="section testimonials">
         <div className="container">
-          <h2 className="section-title">Success Stories</h2>
           <div className="testimonials-slider">
             {testimonials.map((testimonial, index) => (
               <div
